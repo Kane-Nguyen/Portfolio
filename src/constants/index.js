@@ -20,9 +20,11 @@ import {
     tesla,
     shopify,
     carrent,
-    jobit,
-    tripguide,
+    family,
+    shoppe,
     threejs,
+    blogmemories,
+    music,
   } from "../assets";
   
   export const navLinks = [
@@ -178,50 +180,71 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/Kane-Nguyen/web-shopee-res",
+      image: shoppe,
+      source_code_link: "https://kane-nguyen.github.io/web-shopee-res/",
     },
     {
-      name: "The Band",
+      name: "My Friend",
       description:
-        "Tôi làm một trang giới thiệu về một band nhạc chủ yếu project này là HTML ,CSS",
+        "Tôi làm một trang giới thiệu về bạn bè của tôi ,lưu dữ ảnh của chúng tôi với nhau, chủ yếu project này là HTML ,CSS ",
       tags: [
         {
-          name: "react",
+          name: "HTML",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "CSS",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Javascript",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: family,
+      source_code_link: "https://kane-nguyen.github.io/Family-HTML-CSS/",
     },
     {
-      name: "Trip Guide",
+      name: "Memories Blog",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Một dự án về những kỹ niệm các bạn đi du lịch và chụp hình và viết blog đễ chia sẽ về hành trình của mình các bạn có thể login và logout tài khoản , posting , editing , delete and comment vào các post ",
       tags: [
         {
-          name: "nextjs",
+          name: "reactjs",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "nodejs",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "mongoDB",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: blogmemories,
+      source_code_link: "memoriesblog.click",
+    },
+    {
+      name: "Music Player",
+      description:
+        "Một dự án khá là hay về music, dự án khá là khó vì viết base 100% là javascript các chức năng như next bài phát ngẫu nhiên pause and start .. bla bla ",
+      tags: [
+        {
+          name: "Javascript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "HTML",
+          color: "green-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: music,
+      source_code_link: "https://kane-nguyen.github.io/Music/",
     },
   ];
   

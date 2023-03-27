@@ -27,8 +27,10 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import shoppe from "./shoppe.png";
+import blogmemories from "./blogmemories.png";
+import family from "./family.png";
+import music from "./music.png";
 
 export {
   logo,
@@ -55,8 +57,10 @@ export {
   meta,
   shopify,
   starbucks,
+  family,
+  music,
+  blogmemories,
+  shoppe,
   tesla,
   carrent,
-  jobit,
-  tripguide,
 };
